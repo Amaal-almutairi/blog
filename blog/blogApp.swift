@@ -9,9 +9,11 @@ import SwiftUI
 
 @main
 struct blogApp: App {
+ 
     var body: some Scene {
-        WindowGroup {
-            ContentView()
+        WindowGroup{
+         // NewFastingRecord()
+            FastingHistoryView()
         }
     }
 }
